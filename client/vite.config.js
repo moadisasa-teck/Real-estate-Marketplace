@@ -6,8 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
-        // target: 'https://real-estate-marketplace-jofn.onrender.com',
+        target: 'https://real-estate-marketplace-jofn.onrender.com',
         secure: false,
       },
     },
