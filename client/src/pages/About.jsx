@@ -3,12 +3,19 @@ import React from 'react'
 export default function About() {
   return (
     <div className='py-20 px-4 max-w-6xl mx-auto'>
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Integrated Estate</h1>
-      <p className='mb-4 text-slate-700'>Integrated Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
-      <p className='mb-4 text-slate-700'>
-      Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
+      <h1 className='text-4xl font-extrabold mb-6 text-slate-800 tracking-tight'>Who We Are</h1>
+      <p className='mb-6 text-lg text-slate-700 leading-relaxed'>
+        At <span className='font-semibold text-blue-600'>Integrated Estate</span>, we’re more than just a real estate agency — we’re your partners in finding the place you’ll call home, or making the perfect sale. We specialize in connecting people with properties in the most sought-after neighborhoods, with a smooth, stress-free experience every step of the way.
       </p>
-      <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
+      <p className='mb-6 text-lg text-slate-700 leading-relaxed'>
+        With years of experience, our passionate team of agents brings local expertise, genuine care, and a personal touch to every interaction. Whether you're buying your first home, selling a beloved property, or searching for the right rental, we’re here to guide and support you.
+      </p>
+      <p className='mb-6 text-lg text-slate-700 leading-relaxed'>
+        We believe real estate isn’t just about buildings — it’s about people, dreams, and building futures. That’s why our mission is clear: deliver expert advice, exceptional service, and real results that leave a lasting impact.
+      </p>
+      <p className='text-lg text-slate-700 leading-relaxed'>
+        Discover a better way to move forward — with <span className='font-semibold text-blue-600'>Integrated Estate</span>, where your real estate goals become reality.
+      </p>
     </div>
   )
 }
