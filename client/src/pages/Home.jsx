@@ -56,7 +56,7 @@ export default function Home() {
           place with ease
         </h1>
         <p className="mt-4 text-gray-500 text-base sm:text-lg max-w-xl mx-auto">
-          Integrated Estate is the best place to find your next perfect place to live. We have a wide range of properties for you to choose from.
+          Integrated Housing is the best place to find your next perfect place to live. We have a wide range of properties for you to choose from.
         </p>
         <Link
           to="/search"
